@@ -6,19 +6,19 @@ var lastName = 'Kane';
 //Concatenating strings in the console.
 console.log("The user's name is: " + firstName + lastName);
 
-//Numbers, both intigers and floats (or decimals).
-var int = 1;
-var float = 5.25;
+//Numbers, both whole and decimal.
+var num1 = 1;
+var num2 = 5.25; //Changed int and float to num1 and num2.
 
 //Example of a boolean.
 var bool = true;
 
 //Different operators:
-var addition = int + float;
-var subtraction = int - float;
-var multiply = int * float;
-var divide  = float / int;
-var remainder = float % int;
+var addition = num1 + num2;
+var subtraction = num2 - num1;
+var multiply = num1 * num2;
+var divide  = num1 / num2;
+var remainder = num2 % num1;
 
 //Printing the above variables to the console:
 console.log("This is the output from adding the variables int and float together: " + addition);
