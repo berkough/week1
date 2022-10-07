@@ -21,12 +21,17 @@ let divide  = num1 / num2;
 let remainder = num2 % num1;
 
 //Printing the above letiables to the console:
-console.log('This is the output from adding the letiables int and float together: ' + addition);
-console.log('This is the output from subtracting float from int: ' + subtraction);
-console.log('This is the output from multiplying int and float: ' + multiply);
-console.log('This is the output from dividing float by int: ' + divide);
-console.log('This is the remainder of float divided by int: ' + remainder);
+console.log('This is the output from adding the variables num1 and num2 together: ' + addition);
+console.log('This is the output from subtracting num2 from num1: ' + subtraction);
+console.log('This is the output from multiplying num1 and num2: ' + multiply);
+console.log('This is the output from dividing num2 by num1: ' + divide);
+console.log('This is the remainder of num2 divided by num2: ' + remainder);
 
 firstName = 'Matt';
 const constantOfPi = 3.14159265359;
 console.log('The user has shortened his first name to ' + firstName + ' and has declared the constant ' + constantOfPi);
+
+let temperature = 76;
+let celcius = (temperature - 32) * 5/9;
+
+console.log("The temperature is "+ temperature + "F " + "and " + celcius.toFixed(1) + "C");
