@@ -35,3 +35,8 @@ let temperature = 76;
 let celcius = (temperature - 32) * 5/9;
 
 console.log("The temperature is "+ temperature + "F " + "and " + celcius.toFixed(1) + "C");
+
+let radius = 3;
+let area = constantOfPi * Math.pow(radius,2);
+
+console.log("The variable radius is currently set to 3, the area of the circle is " + area.toFixed(2));
